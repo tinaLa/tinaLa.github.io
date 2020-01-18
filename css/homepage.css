@@ -1,0 +1,20 @@
+
+#headshot {
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+}
+
+.about {
+    font-family: 'Raleway', sans-serif;
+    float: right;
+    width: 850px;
+    word-wrap: break-word;
+    padding-right: 50px;
+}
+
+@media screen and (max-width:200px) {
+  #headshot, .about {
+    width:100%; 
+  }
+}

@@ -1,0 +1,34 @@
+/* Custom CSS for navbar */
+nav.custom-nav {
+    height: 100px;
+    line-height: 100px;
+    
+    padding-left: 20px;
+    padding-right: 10px;
+    
+    background-color: #EFEAEA;
+}
+
+/* Custom CSS for navbar links */
+a.custom-nav-link {
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+    color: #707070;
+    
+    margin-right: 10px;
+}
+
+/* Vertically center logo & adjust size */
+.logo {
+    display: inline-block;
+    height: 100%
+}
+
+.logo > img {
+    vertical-align: middle;
+}
+
+#personal-logo {
+    width: 60px;
+    height: 60px;
+}
