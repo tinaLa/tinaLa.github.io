@@ -9,22 +9,42 @@
     
     <head>
         <title> Tina La | Projects </title>
-        <link href="header.css" rel=stylesheet>
-        <link href="https://fonts.googleapis.com/css?family=Raleway:700|Rouge+Script&display=swap" rel="stylesheet">
+        
+        <!--Import CSS for header-->
+        <link href="css/header.css" rel=stylesheet>
+        
+        <!--Import Emojis-->
+        <link rel='stylesheet' href='https://unpkg.com/emoji.css/dist/emoji.min.css'>
+        
+        <!--Import Dosis and Material Icons from Google Fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        
+        <!-- Import Materialize CSS and JS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     </head>
     
     <body>
         
-        <div class="header">
-            <a href="../index.html" id="header_name"> Tina La </a>
-        
-            <nav>
-                <a href="../index.html"> HOME </a>
-                <a href="../projects.html"> PROJECTS </a>
-                <a href="../resume.html"> RESUME </a>
-                <a href="../contact.html"> CONTACT </a>    
-            </nav>
-        </div>
+        <!-- NAVIGATION BAR -->
+        <nav class="custom-nav">
+            <div class="nav-wrapper">
+                <a href="index.html" class="brand-logo logo"> 
+                    <img src="images/TL_Logo2.png" alt="TINA LA" id="personal-logo"> 
+                </a>
+                
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li> <a href="index.html" class="custom-nav-link"> HOME </a> </li>
+                    <li> <a href="projects.html" class="custom-nav-link"> PROJECTS </a> </li>
+                    <li> <a href="resume.html" class="custom-nav-link"> RESUME </a> </li>
+                    <li> <a href="contact.html" class="custom-nav-link"> CONTACT </a> </li>
+                </ul>
+            </div>
+        </nav>
         
         <div class="content">
             <h1> This is my project page. </h1>
