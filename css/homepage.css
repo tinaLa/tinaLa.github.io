@@ -1,20 +1,47 @@
 
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+.page-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
 #headshot {
+   padding-right: 60px; 
+}
+
+#headshot-img {
     border-radius: 50%;
-    width: 400px;
-    height: 400px;
+    width: 450px;
+    height: 450px;
 }
 
-.about {
-    font-family: 'Raleway', sans-serif;
-    float: right;
-    width: 850px;
-    word-wrap: break-word;
-    padding-right: 50px;
+h1, h4 {
+    margin: 0px;
+    padding: 0px;
 }
 
-@media screen and (max-width:200px) {
-  #headshot, .about {
-    width:100%; 
-  }
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100px;
+    font-weight: 700;
+}
+
+h4 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: #707070;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
 }

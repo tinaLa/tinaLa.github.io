@@ -1,34 +1,60 @@
-/* Custom CSS for navbar */
-nav.custom-nav {
-    height: 100px;
-    line-height: 100px;
-    
+/* NAVBAR */
+nav {
+    height: 12%;
     padding-left: 20px;
-    padding-right: 10px;
     
     background-color: #EFEAEA;
+    box-shadow: 3px 3px 3px #CACACA;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-/* Custom CSS for navbar links */
-a.custom-nav-link {
+/* NAVBAR - Links */
+a.nav-link {
     font-family: 'Dosis', sans-serif;
     font-size: 30px;
     color: #707070;
+    text-decoration: none;
     
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
-/* Vertically center logo & adjust size */
-.logo {
-    display: inline-block;
-    height: 100%
-}
-
-.logo > img {
-    vertical-align: middle;
-}
-
+/* NAVBAR - Logo */
 #personal-logo {
     width: 60px;
     height: 60px;
+}
+
+/* PAGE CONTENT */
+.page-content {
+    height: 80%;
+}
+
+/* FOOTER */
+footer {
+    height: 8%;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    background-color: #EFEAEA;
+    font-family: 'Dosis', sans-serif;
+    color: #707070;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* FOOTER - Social Media Icon Links */
+.icon-link {
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+/* FOOTER - Social Media Icon Images*/
+.icon-img {
+    width: 30px;
+    height: 30px;
 }
