@@ -21,15 +21,14 @@ a.nav-link {
     margin-right: 20px;
 }
 
+a.nav-link:hover {
+    font-weight: 700;
+}
+
 /* NAVBAR - Logo */
 #personal-logo {
     width: 60px;
     height: 60px;
-}
-
-/* PAGE CONTENT */
-.page-content {
-    height: 80%;
 }
 
 /* FOOTER */

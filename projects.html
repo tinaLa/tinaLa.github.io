@@ -12,46 +12,79 @@
         <title> Tina La | Projects </title>
         <link rel="icon" href="images/TL_Logo2.png">
         
-        <!--Import CSS for header-->
-        <link href="css/header.css" rel=stylesheet>
+        <!--Import CSS for header and homepage-->
+        <link href="css/main.css" rel=stylesheet>
+        <link href="css/projects.css" rel=stylesheet>
         
         <!--Import Emojis-->
         <link rel='stylesheet' href='https://unpkg.com/emoji.css/dist/emoji.min.css'>
         
-        <!--Import Dosis and Material Icons from Google Fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        
-        <!-- Import Materialize CSS and JS-->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-        
-        <!--Let browser know website is optimized for mobile-->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <!--Import Dosis and Open Sans from Google Fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Dosis:400,700|Open+Sans&display=swap" rel="stylesheet">
     </head>
     
     <body>
-        
         <!-- NAVIGATION BAR -->
-        <nav class="custom-nav">
-            <div class="nav-wrapper">
-                <a href="index.html" class="brand-logo logo"> 
+        <nav>
+            <div class="nav-left">
+                <a href="index.html" class="logo brand-logo"> 
                     <img src="images/TL_Logo2.png" alt="TINA LA" id="personal-logo"> 
                 </a>
-                
-                <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li> <a href="index.html" class="custom-nav-link"> HOME </a> </li>
-                    <li> <a href="projects.html" class="custom-nav-link"> PROJECTS </a> </li>
-                    <li> <a href="resume.html" class="custom-nav-link"> RESUME </a> </li>
-                    <li> <a href="contact.html" class="custom-nav-link"> CONTACT </a> </li>
-                </ul>
+            </div>
+
+            <div class="nav-right">
+                <a href="index.html" class="nav-link"> HOME </a>
+                <a href="projects.html" class="nav-link"> PROJECTS </a>
+                <a href="TinaLa_Resume.pdf" target="_blank" class="nav-link"> RESUME </a>
+                <a href="contact.html" class="nav-link"> CONTACT </a>
             </div>
         </nav>
-        
-        <div class="content">
-            <h1> This is my project page. </h1>
+
+        <!-- PAGE CONTENT -->
+        <div class="page-content">
+
+            <div id="project-header">
+                <div class="projects-left">
+                    <h1> PROJECTS </h1>
+                </div>
+
+                <div class="projects-right">
+                    <button> All </button>
+                    <span style="color: black"> &nbsp;&bull;&nbsp; </span> 
+                    <button> Technical </button>
+                    <span style="color: black"> &nbsp;&bull;&nbsp; </span> 
+                    <button> Design </button>
+                </div>
+            </div>
+
+            <div id="project-gallery">
+                <div class="row">
+                    <img src="images/website.png" class="project">
+                    <img src="images/wireframer.png" class="project">
+                    <img src="images/eventcal.png" class="project">
+                </div>
+            </div>
         </div>
-         
+
+        <!-- FOOTER -->
+        <footer>
+            <h4 style="font-size: 20px"> 
+                © 2020 Tina La
+            </h4>
+
+            <div class="social-media">
+                <a href="mailto:tina.la@stonybrook.edu" class="icon-link"> 
+                    <img src="images/email_round.png" class="icon-img">
+                </a>
+                <a href="https://www.linkedin.com/in/tina-la/" class="icon-link">
+                    <img src="images/linkedin_round.png" class="icon-img">
+                </a>
+                <a href="https://github.com/tinaLa" class="icon-link">
+                    <img src="images/github_round.png" class="icon-img">
+                </a>
+            </div>
+        </footer>
+        
         
     </body>
     
