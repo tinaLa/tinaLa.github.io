@@ -4,6 +4,10 @@ html, body {
     height: 100%;
 }
 
+a#home-link {
+    font-weight: 700;
+}
+
 .content-wrapper {
     position: relative;
     min-height: 100%;

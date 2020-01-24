@@ -21,6 +21,10 @@
         
         <!--Import Dosis and Open Sans from Google Fonts-->
         <link href="https://fonts.googleapis.com/css?family=Dosis:400,700|Open+Sans&display=swap" rel="stylesheet">
+        
+        <!--Import JS-->
+        <script src="projects.js"></script>
+        
     </head>
     
     <body>
@@ -35,10 +39,10 @@
                 </div>
 
                 <div class="nav-right">
-                    <a href="index.html" class="nav-link"> HOME </a>
-                    <a href="projects.html" class="nav-link"> PROJECTS </a>
+                    <a href="index.html" class="nav-link" id="home-link"> HOME </a>
+                    <a href="projects.html" class="nav-link" id="project-link"> PROJECTS </a>
                     <a href="TinaLa_Resume.pdf" target="_blank" class="nav-link"> RESUME </a>
-                    <a href="contact.html" class="nav-link"> CONTACT </a>
+                    <a href="contact.html" class="nav-link" id="contact-link"> CONTACT </a>
                 </div>
             </nav>
 
@@ -51,22 +55,22 @@
                     </div>
 
                     <div class="projects-right">
-                        <button> All </button>
+                        <button id="all-button" class="active" onclick="filterAllProjects()"> All </button>
                         <span style="color: black"> &nbsp;&bull;&nbsp; </span> 
-                        <button> Technical </button>
+                        <button id="technical-button" onclick="filterTechnicalProjects()"> Technical </button>
                         <span style="color: black"> &nbsp;&bull;&nbsp; </span> 
-                        <button> Design </button>
+                        <button id="design-button" onclick="filterDesignProjects()"> Design </button>
                     </div>
                 </div>
 
                 <div id="project-gallery">
                     <div class="row">
-                        <img src="images/website.png" class="project">
-                        <img src="images/wireframer.png" class="project">
-                        <img src="images/eventcal.png" class="project">
-                        <img src="images/spirit_of_saigon.png" class="project">
-                        <img src="images/tien_len.png" class="project">
-                        <img src="images/miss_asia.png" class="project">
+                        <img src="images/website.png" class="technical project visible">
+                        <img src="images/wireframer.png" class="technical project visible">
+                        <img src="images/eventcal.png" class="technical project visible">
+                        <img src="images/spirit_of_saigon.png" class="design project visible">
+                        <img src="images/tien_len.png" class="design project visible">
+                        <img src="images/miss_asia.png" class="design project visible">
                     </div>
                 </div>
             </div>
