@@ -28,6 +28,7 @@ h1 {
 
 button {
     border: none;
+    outline: none;
     font-family: 'Dosis', sans-serif;
     font-size: 25px;
     font-weight: 400;
