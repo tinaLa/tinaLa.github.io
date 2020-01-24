@@ -1,11 +1,18 @@
 html, body {
     margin: 0;
+    padding: 0;
     height: 100%;
+}
+
+.content-wrapper {
+    position: relative;
+    min-height: 100%;
 }
 
 .page-content {
     padding-left: 100px;
     padding-right: 100px;
+    padding-bottom: 70px;
 }
 
 h1 {
@@ -34,11 +41,12 @@ button {
 }
 
 #project-gallery {
-    padding-bottom: 64px;
+    padding-bottom: 30px;
 }
 
 .project {
     width: 400px;
     height: 400px;
     margin-right: 10px;
+    margin-bottom: 10px;
 }
