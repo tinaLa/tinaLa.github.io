@@ -26,8 +26,8 @@ a#home-link {
 
 #headshot-img {
     border-radius: 50%;
-    width: 450px;
-    height: 450px;
+    width: 100%;
+    height: auto;
 }
 
 h1 {
@@ -48,7 +48,7 @@ p {
     font-size: 18px;
 }
 
-@media only screen and (max-width: 1050px) {
+@media only screen and (max-width: 1024px) {
     .page-content {
         display: block;
         padding: 50px;
@@ -65,19 +65,16 @@ p {
     #about-me {
         text-align: center;
     }
-}
-
-@media only screen and (max-width: 600px) {
-    #headshot-img {
-        width: 400px;
-        height: 400px;
-    }
     
     h1 {
-        font-size: 80px;
+        font-size: 10vh;
     }
     
     h4 {
-        font-size: 20px;
+        font-size: 3vh;
+    }
+    
+    p {
+        font-size: 2vh;
     }
 }
