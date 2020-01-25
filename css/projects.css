@@ -92,11 +92,18 @@ button:hover, button.active {
     }
     
     .page-content {
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     
     h1 {
         font-size: 80px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .project.visible {
+        width: 300px;
+        height: 300px;
     }
 }
