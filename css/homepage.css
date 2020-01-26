@@ -57,19 +57,28 @@ p {
 @media only screen and (max-width: 1024px) {
     .page-content {
         display: block;
-        padding: 50px;
+        padding-top: 50px;
         padding-bottom: 100px;
     }
     
     #headshot {
         display: flex;
         justify-content: center;
+        padding-left: 0px;
         padding-right: 0px;
-        padding-bottom: 20px;
+        padding-bottom: 30px;
+    }
+    
+    #headshot-img {
+        border-radius: 50%;
+        width: 80%;
+        height: auto;
     }
     
     #about-me {
         text-align: center;
+        padding-left: 50px;
+        padding-right: 50px;
     }
     
     h1 {
