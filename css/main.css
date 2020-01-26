@@ -6,9 +6,17 @@ nav {
     background-color: #EFEAEA;
     box-shadow: 3px 3px 3px #CACACA;
     
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    display: block;
+    position: relative;
+    line-height: 100px;
+}
+
+.nav-left {
+    float: left;
+}
+
+.nav-right {
+    float: right;
 }
 
 /* NAVBAR - Links */
@@ -27,6 +35,10 @@ a.nav-link:hover {
 
 /* NAVBAR - Logo */
 #personal-logo {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    
     width: 60px;
     height: 60px;
 }
@@ -34,6 +46,10 @@ a.nav-link:hover {
 h1, h4 {
     margin: 0;
     padding: 0;
+}
+
+#menu-button {
+    display: none;
 }
 
 /* FOOTER */
@@ -73,4 +89,24 @@ footer {
 .icon-img {
     width: 30px;
     height: 30px;
+}
+
+@media only screen and (max-width: 425px) {
+    a.nav-link {
+        display: none;
+    }
+    
+    a.nav-link.responsive {
+        display: block;
+    }
+    
+    #menu-button {
+        display: block;
+    }
+    
+    #menu-img {
+        width: 40px;
+        height: auto;
+        padding-right: 20px;
+    }
 }

@@ -17,17 +17,23 @@ a#home-link {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 100px;
+    width: 100vw;
+    padding-top: 100px;
 }
 
 #headshot {
-   padding-right: 60px; 
+    padding-left: 100px;
+    padding-right: 50px; 
 }
 
 #headshot-img {
     border-radius: 50%;
     width: 100%;
     height: auto;
+}
+
+#about-me {
+    padding-right: 100px;
 }
 
 h1 {
