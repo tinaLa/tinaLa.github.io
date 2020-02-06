@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+    <!--
+    Projects and portfolio.
+    
+    Include coding projects and graphic design work.
+    -->
+    
+    <head>
+        <!--Set page title and favicon-->
+        <title> Tina La | Projects </title>
+        <link rel="icon" href="images/TL_Logo2.png">
+        
+        <!--Import CSS for header and homepage-->
+        <link href="css/main.css" rel=stylesheet>
+        <link href="css/project.css" rel=stylesheet>
+        
+        <!--Import Emojis-->
+        <link rel='stylesheet' href='https://unpkg.com/emoji.css/dist/emoji.min.css'>
+        
+        <!--Import Dosis and Open Sans from Google Fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Dosis:400,700|Open+Sans&display=swap" rel="stylesheet">
+        
+        <!--Import JS-->
+        <script src="js/menu.js"></script>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    </head>
+    
+    <body>
+        
+        <div class="content-wrapper">
+            <!-- NAVIGATION BAR -->
+            <nav>
+                <div class="nav-left">
+                    <a href="index.html" class="logo brand-logo"> 
+                        <img src="images/TL_Logo2.png" alt="TINA LA" id="personal-logo"> 
+                    </a>
+                </div>
+
+                <div class="nav-right">
+                    <a href="index.html" class="nav-link" id="home-link"> HOME </a>
+                    <a href="projects.html" class="nav-link" id="project-link"> PROJECTS </a>
+                    <a href="TinaLa_Resume.pdf" target="_blank" class="nav-link"> RESUME </a>
+                    <a href="mailto:tina.la@stonybrook.edu" class="nav-link" id="contact-link"> CONTACT </a>
+                    
+                    <button id="menu-button" onclick="showMenu()"> <img src="images/hamburger_menu.png" id="menu-img"> </button>
+                </div>
+            </nav>
+
+            <!-- PAGE CONTENT -->
+            <div class="page-content">
+                <div class="breadcrumb">
+                    <a href="projects.html"> PROJECTS </a> > <a href="website.html" class="current-project"> TINALA.ME </a>
+                </div>
+
+                <div class="project-intro">
+                    <h1> TINALA.ME </h1>
+                    <h2> Personal Website </h2>
+                </div>
+            
+                <div class="project-image-wrapper"> <img src="images/website.png" class="project-img"> </div>
+                
+                <p>
+                    This is the website you are currently looking at! I personally developed this website in order to create an online professional presence and showcase my projects and work. 
+                </p>
+
+                <p>
+                    These are the initial wireframe sketches I made, laying out the general structure I wanted for my website. From the start, I wanted the layout and visuals of the site to be minimalist, straightforward, and simple.
+                </p>
+
+                <div class="project-image-wrapper"> <img src="images/website_design.jpg" class="project-img"> </div>
+                
+                <p>
+                    After creating these rough sketches, I created a digital wireframe with Adobe XD. The color and font choices I made for my site were intentionally made to coordinate with my resume’s color palette and fonts, which was created based off of a template. 
+                </p>
+
+                <p>
+                    I also designed a personal logo for my website, first by sketching and then rendering it digitally with Inkscape. The design is meant to be minimalist to fit with the overall feel of the website and incorporates geometric shapes. I chose bubbles as a motif in my personal logo because I have been told that I have a bubbly personality! “Bubbles” was also my summer camp instructor nickname at Alexa Cafe the past summer.
+                </p>
+
+                <div class="project-image-wrapper"> <img src="images/logo_designs.jpg" class="project-img"> </div>
+                
+                <p> Using these designs, I developed the website with HTML, CSS, and Javascript. </p>
+                
+                <div class="project-image-wrapper"> <img src="images/homepage.png" class="project-img"> </div>
+                
+                <div class="github-link-wrapper">
+                    <img src="images/github_round.png" class="icon-img"> <a href="https://github.com/tinaLa/tinaLa.github.io" class="github-link"> Github Link </a>
+                </div>
+                
+            </div>
+
+            <!-- FOOTER -->
+            <footer>
+                <h4 class="copyright"> 
+                    © 2020 Tina La
+                </h4>
+
+                <div class="social-media">
+                    <a href="mailto:tina.la@stonybrook.edu" class="icon-link"> 
+                        <img src="images/email_round.png" class="icon-img">
+                    </a>
+                    <a href="https://www.linkedin.com/in/tina-la/" class="icon-link">
+                        <img src="images/linkedin_round.png" class="icon-img">
+                    </a>
+                    <a href="https://github.com/tinaLa" class="icon-link">
+                        <img src="images/github_round.png" class="icon-img">
+                    </a>
+                </div>
+            </footer>
+        </div>
+        
+    </body>
+    
+</html>

@@ -1,3 +1,9 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
 /* NAVBAR */
 nav {
     height: 100px;
@@ -102,11 +108,16 @@ footer {
     
     #menu-button {
         display: block;
+        width: 40px;
+        height: auto;
+        
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
     }
     
     #menu-img {
         width: 40px;
         height: auto;
-        padding-right: 20px;
     }
 }
