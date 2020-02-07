@@ -66,3 +66,7 @@ a.github-link {
     text-align: center;
     padding-top: 20px;
 }
+
+#project-link {
+    font-weight: 700;   
+}
