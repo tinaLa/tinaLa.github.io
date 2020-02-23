@@ -99,11 +99,12 @@ footer {
 
 @media only screen and (max-width: 425px) {
     a.nav-link {
-        display: none;
+/*        display: none;*/
+        font-size: 10px;
     }
     
     a.nav-link.responsive {
-        display: block;
+/*        display: block;*/
     }
     
     #menu-button {
