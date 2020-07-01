@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     
     <!--
     This will be the homepage.
@@ -13,13 +13,20 @@
     -->
     
     <head>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
         <!--Set page title and favicon-->
         <title> Tina La | Home </title>
         <link rel="icon" href="images/TL_Logo2.png">
         
-        <!--Import CSS for header and homepage-->
+        <!--Import Bootstrap CSS-->
+        <!--
         <link href="css/main.css" rel=stylesheet>
         <link href="css/homepage.css" rel=stylesheet>
+-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
         
         <!--Import Emojis-->
         <link rel='stylesheet' href='https://unpkg.com/emoji.css/dist/emoji.min.css'>
@@ -27,74 +34,21 @@
         <!--Import Dosis and Open Sans from Google Fonts-->
         <link href="https://fonts.googleapis.com/css?family=Dosis:400,700|Open+Sans&display=swap" rel="stylesheet">
         
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     
     
     <body>
         
-        <div class="content-wrapper">
-            <!-- NAVIGATION BAR -->
-            <nav>
-                <div class="nav-left">
-                    <a href="index.html" class="logo brand-logo"> 
-                        <img src="images/TL_Logo2.png" alt="TINA LA" id="personal-logo"> 
-                    </a>
-                </div>
-                
-                <div class="nav-right">
-                    <a href="index.html" class="nav-link" id="home-link"> HOME </a>
-                    <a href="projects.html" class="nav-link" id="project-link"> PROJECTS </a>
-                    <a href="TinaLa_Resume.pdf" target="_blank" class="nav-link"> RESUME </a>
-                    <a href="mailto:tina.la@stonybrook.edu" class="nav-link" id="contact-link"> CONTACT </a>
-                    
-                </div>
-            </nav>
-
-            <!-- PAGE CONTENT -->
-            <div class="page-content">
-                <div id="headshot"> 
-                    <img src="images/Me.jpg" height=500 id="headshot-img">
-                </div>
-
-                <div id="about-me">
-                    <h4> Hi, my name is </h4>
-                    <h1> TINA LA </h1>
-                    <h4> 
-                        Developer&nbsp;<span class="ec ec-computer"></span>
-                        <span style="color: black"> &nbsp;&bull;&nbsp; </span> 
-                        Designer&nbsp;<span class="ec ec-paintbrush"></span>
-                        <span style="color: black"> &nbsp;&bull;&nbsp; </span> 
-                        Seeking 2020 Summer Internship <span class="ec ec-mag"></span> 
-                    </h4>
-                    <p>
-                        I am currently a junior at Stony Brook University majoring in computer science and minoring in digital arts. Programming and graphic design are my greatest passions and I am seeking opportunities in front-end development and UI/UX design to grow and integrate these skills.
-                    </p>
-                </div>
-            </div>
-
-            <!-- FOOTER -->
-            <footer>
-                <h4 class="copyright"> 
-                    © 2020 Tina La
-                </h4>
-
-                <div class="social-media">
-                    <a href="mailto:tina.la@stonybrook.edu" class="icon-link"> 
-                        <img src="images/email_round.png" class="icon-img">
-                    </a>
-                    <a href="https://www.linkedin.com/in/tina-la/" class="icon-link">
-                        <img src="images/linkedin_round.png" class="icon-img">
-                    </a>
-                    <a href="https://github.com/tinaLa" class="icon-link">
-                        <img src="images/github_round.png" class="icon-img">
-                    </a>
-                </div>
-            </footer>
-        </div>
+        <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/TL_Logo2.png" alt="TINA LA" width="60" height="60" loading="lazy">
+            </a>
+        </nav>
         
-        
-        
+        <!-- Bootstrap script files -->
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     </body>
     
     
