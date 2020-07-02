@@ -28,7 +28,8 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
         
         <!--Import Emojis-->
-        <link rel='stylesheet' href='https://unpkg.com/emoji.css/dist/emoji.min.css'>
+<!--        <link rel='stylesheet' href='https://unpkg.com/emoji.css/dist/emoji.min.css'>-->
+        <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
         
         <!--Import Dosis and Open Sans from Google Fonts-->
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
@@ -36,11 +37,11 @@
     </head>
     
     
-    <body>
+    <body class="d-flex">
         
         <nav class="navbar navbar-expand-sm navbar-light bg-light shadow-sm fixed-top">
             <a class="navbar-brand" href="index.html">
-                <img src="images/TL_Logo2.png" alt="TINA LA" width="60" height="60" loading="lazy">
+                <img src="images/TL_Logo2.png" alt="TINA LA" width="50" height="50" loading="lazy">
             </a>
             
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links">
@@ -51,6 +52,9 @@
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
                         <a class="nav-link" href="index.html"> HOME </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> ABOUT </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="projects.html"> PORTFOLIO </a>
@@ -67,20 +71,25 @@
         
         <div class="container align-self-center">
             <div class="row align-items-center">
-                <div class="col-lg-4 headshot">
-                    <img src="images/Me.jpg" id="headshot-img">
+                <div class="col-lg-4 px-sm-4 headshot">
+                    <img src="images/Me.jpg"  class="shadow" id="headshot-img">
                 </div>
-                <div class="col-lg-8 about-me">
+                <div class="col-lg-8 px-sm-4 about-me">
                     <h5> Hi, my name is </h5>
                     <h1 class="display-1"> TINA LA </h1>
                     <h5> 
-                        Aspiring UX/UI Designer&nbsp;<span class="ec ec-paintbrush"></span>
+                        Aspiring UX/UI Designer&nbsp;<i class="em em-lower_left_fountain_pen" aria-role="presentation" aria-label=""></i>
                         <span style="color: black"> &nbsp;&bull;&nbsp; </span> 
-                        Seeking Full Time Opportunities <span class="ec ec-mag"></span> 
+                        Seeking Full Time Opportunities <i class="em em-mag" aria-role="presentation" aria-label="LEFT-POINTING MAGNIFYING GLASS"></i>
                     </h5>
                     <p>
-                        I am a senior at Stony Brook University majoring in computer science and minoring in digital arts. Design and development are my greatest passions and I am seeking opportunities in UX/UI design to integrate and expand upon these skills.
+                        I am a senior at Stony Brook University majoring in computer science and minoring in digital arts. I love designing and front-end development and am seeking opportunities in UX/UI design to integrate and build upon these skills.
                     </p>
+                    
+                    <a class="btn btn-dark portfolio-button shadow-sm" role="button" href="projects.html">
+                        <span> CHECK OUT MY PORTFOLIO </span>
+                    </a>
+                    
                 </div>
             </div>
         </div>
@@ -96,6 +105,10 @@
                 
                 <a href="https://www.linkedin.com/in/tina-la/" class="icon-link float-right">
                     <img src="images/linkedin_round.png" class="icon-img">
+                </a>
+                
+                <a href="mailto:tina.la@stonybrook.edu" class="icon-link float-right"> 
+                    <img src="images/email_round.png" class="icon-img">
                 </a>
                 
             </div>
