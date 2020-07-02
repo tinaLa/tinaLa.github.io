@@ -1,124 +1,40 @@
-html, body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-}
-
-/* NAVBAR */
-nav {
-    height: 100px;
-    padding-left: 20px;
-    
-    background-color: #EFEAEA;
-    box-shadow: 3px 3px 3px #CACACA;
-    
-    display: block;
+html {
     position: relative;
-    line-height: 100px;
+    min-height: 100%;
 }
 
-.nav-left {
-    float: left;
-}
-
-.nav-right {
-    float: right;
-}
-
-/* NAVBAR - Links */
-a.nav-link {
-    font-family: 'Dosis', sans-serif;
-    font-size: 30px;
+.nav-link {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
     color: #707070;
     text-decoration: none;
-    
-    margin-right: 20px;
 }
 
-a.nav-link:hover {
-    font-weight: 700;
+.container {
+    margin-top: 90px;
+    margin-bottom: 50px;
 }
 
-/* NAVBAR - Logo */
-#personal-logo {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    
-    width: 60px;
-    height: 60px;
-}
-
-h1, h4 {
-    margin: 0;
-    padding: 0;
-}
-
-#menu-button {
-    display: none;
-}
-
-/* FOOTER */
-footer {
-    height: 60px;
-    
-    background-color: #EFEAEA;
-    
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    
+.footer {
     position: absolute;
     bottom: 0;
     width: 100%;
+    
+    height: 50px;
+    line-height: 50px;
+}
+
+.footer-content {
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .copyright {
-    font-family: 'Dosis', sans-serif;
-    color: #707070;
-    font-size: 20px; 
-    font-weight: 400;
-    padding-left: 20px;
+    font-size: 12px;
 }
 
-.social-media {
-    padding-right: 10px;
-}
-
-/* FOOTER - Social Media Icon Links */
-.icon-link {
-    text-decoration: none;
-    margin-right: 10px;
-}
-
-/* FOOTER - Social Media Icon Images*/
 .icon-img {
-    width: 30px;
-    height: 30px;
-}
-
-@media only screen and (max-width: 425px) {
-    a.nav-link {
-/*        display: none;*/
-        font-size: 10px;
-    }
-    
-    a.nav-link.responsive {
-/*        display: block;*/
-    }
-    
-    #menu-button {
-        display: block;
-        width: 40px;
-        height: auto;
-        
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-    }
-    
-    #menu-img {
-        width: 40px;
-        height: auto;
-    }
+    width: 25px;
+    height: 25px;
+    margin-left: 5px;
 }
