@@ -4,7 +4,59 @@
     height: auto;
 }
 
-h4 {
+h1.display-1 {
+    line-height: 1;
+    margin-bottom: 0;
+}
+
+h5 {
+    margin-bottom: 0;
     color: #707070;
 }
 
+p {
+    padding-top: 10px;
+}
+
+/* Large screens */
+@media (max-width: 992px) {
+    .container {
+        margin-top: 400px;
+        margin-bottom: 80px;
+    }
+    
+    .headshot {
+        text-align: center;
+    }
+    
+    #headshot-img {
+        border-radius: 50%;
+        width: 75%;
+        height: auto;
+        margin-bottom: 30px;
+    }
+    
+    .about-me {
+        text-align: center;
+    }
+}
+
+/* M screens */
+@media (max-width: 768px) {
+    #headshot-img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* XS and S screens */
+@media (max-width: 576px) {
+    .container {
+        margin-top: 300px;
+    }
+    
+    #headshot-img {
+        width: 80%;
+        height: auto;
+    }
+}
