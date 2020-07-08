@@ -1,33 +1,33 @@
+.content-wrapper {
+    min-height: 100%;
+    position: relative;
+}
+
+#intro {
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+
 #headshot-img {
     border-radius: 50%;
     width: 100%;
     height: auto;
 }
 
-h1.display-1 {
-    line-height: 1;
-    margin-bottom: 0;
+#projects {
+    padding: 7%;
 }
 
-h5 {
-    margin-bottom: 0;
-    color: #707070;
+#about {
+    padding: 7%;
 }
 
-p {
-    padding-top: 10px;
-}
-
-a.portfolio-button {
-    border-radius: 100px;
+#contact {
+    padding: 5%;
 }
 
 /* Large screens */
 @media (max-width: 992px) {
-    .container {
-        margin-top: 400px;
-        margin-bottom: 80px;
-    }
     
     .headshot {
         text-align: center;
@@ -55,9 +55,6 @@ a.portfolio-button {
 
 /* XS and S screens */
 @media (max-width: 576px) {
-    .container {
-        margin-top: 300px;
-    }
     
     #headshot-img {
         width: 80%;
