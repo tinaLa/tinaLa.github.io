@@ -1,7 +1,7 @@
 /* General */
 html {
     padding-top: 80px;
-    scroll-behavior: smooth;
+/*    scroll-behavior: smooth;*/
 }
 
 * { 
@@ -10,7 +10,7 @@ html {
 
 /* Navbar */
 nav {
-    height: 80px;
+/*    height: 80px;*/
 }
 
 .nav-link {
