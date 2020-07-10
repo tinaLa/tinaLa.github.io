@@ -1,1 +1,3 @@
-My personal website hosted at http://tinala.me. Developed with HTML and CSS.
+# tinaLa.github.io
+
+My personal website at http://tinala.me. Personally developed with HTML, CSS, Boostrap, and jQuery.
