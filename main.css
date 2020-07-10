@@ -1,0 +1,62 @@
+/* General */
+html {
+    padding-top: 80px;
+    scroll-behavior: smooth;
+}
+
+* { 
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar */
+nav {
+    height: 80px;
+}
+
+.nav-link {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* Sections */
+#intro, #projects, #about {
+    padding: 7%;
+}
+
+#contact {
+    padding: 5%;
+}
+
+/* Intro section */
+.headshot {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 992px) {
+    .intro-headshot, .intro-text {
+        text-align: center;
+    }
+    
+    .headshot {
+        width: 75%;
+        height: auto;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .headshot {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .headshot {
+        width: 80%;
+    }
+    
+    .hi {
+        font-size: 4.0rem !important;
+    }
+}

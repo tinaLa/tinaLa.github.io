@@ -7,10 +7,10 @@
         
         <!--Set page title and favicon-->
         <title> Tina La </title>
-        <link rel="icon" href="images/TL_Logo2.png">
+        <link rel="icon" href="images/TL_Logo.png">
         
+        <!-- Import custom CSS -->
         <link href="css/main.css" rel=stylesheet>
-        <link href="css/homepage.css" rel=stylesheet>
         
         <!--Import Bootstrap CSS-->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
@@ -18,131 +18,126 @@
         <!--Import Emojis-->
         <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
         
-        <!--Import Dosis and Open Sans from Google Fonts-->
+        <!--Import Poppins font from Google Fonts-->
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
         
     </head>
     
     
     <body>
-        <div class="content-wrapper d-flex flex-column">
-            <nav class="navbar navbar-expand-sm navbar-light bg-light shadow-sm fixed-top">
-                <a class="navbar-brand" href="index.html">
-                    <img src="images/TL_Logo2.png" alt="TINA LA" width="50" height="50" loading="lazy">
+        <nav class="navbar navbar-expand-sm navbar-light bg-light shadow-sm fixed-top">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/TL_Logo2.png" alt="TINA LA" width="50" height="50" loading="lazy">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbar-links">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#intro"> HOME </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects"> PROJECTS </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about"> ABOUT </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact"> CONTACT </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <main>
+            <div class="container-fluid" id="intro">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 px-sm-4 intro-headshot">
+                        <img src="images/Me.jpg"  class="shadow rounded-circle headshot">
+                    </div>
+                    <div class="col-lg-8 px-sm-4 intro-text">
+                        <h3 class="display-3 hi"> HI! I'M TINA LA. </h3> 
+                        <h5 class="text-muted"> 
+                            I'm a UX/UI designer with a background in software development and graphic design. I'm passionate about creating fun and thoughtful designs that bring users joy. <i class="em em-sparkles" aria-role="presentation" aria-label="SPARKLES"></i> 
+                            <br><br>
+                            Currently seeking full time UX/UI opportunities in NYC.
+                        </h5>
+                        <a class="btn btn-dark btn-lg rounded-pill shadow-sm mt-2" target="_blank" href="TinaLa_Resume_2020.pdf"> 
+                            <i class="em em-memo" aria-role="presentation" aria-label="MEMO"></i> &nbsp;
+                            RESUME
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid bg-light" id="projects">
+                <h1 class="display-4 text-center"> PROJECTS </h1>
+                <h5 class="text-center text-muted mb-5"> These are some projects I've been working on. Contact me for my portfolio to see the full case studies. </h5>
+
+                <div class="row row-cols-1 row-cols-md-3">
+                    <div class="col mb-4">
+                        <div class="card"> 
+                            <img src="images/website.png" class="card-img">
+                            <div class="card-img-overlay">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4">
+                        <div class="card"> 
+                            <img src="images/wireframer.png" class="card-img">
+                            <div class="card-img-overlay">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4">
+                        <div class="card"> 
+                            <img src="images/eventcal.png" class="card-img">
+                            <div class="card-img-overlay">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid" id="about">
+                <h1 class="display-4 text-center"> ABOUT ME </h1>
+                <p class="text-muted">
+                    I'm currently a senior at Stony Brook University majoring in computer science and minoring in digital arts. I've been studying computer science throughout high school and college but have always had a passion for graphic design and problem solving, which led me to the field of user experience design. I've previously worked as an programming instructor at iDTech Camps' Alexa Cafe, instructing students in Java and Python, and was also a UGC Fellow at Stony Brook University, where I mentored and assisted teaching freshman students in their first year seminar classes. 
+
+                    <br><br>
+
+                    When I'm not in class or working, I like to stay involved with clubs on campus. I've been a cabinet member of the Vietnamese Student Association (VSA) for the three years, where I've been Editor, Event Coordinator Assistant, and Vice President. I'm also a member of Alpha Omega Epsilon, where I organized and hosted professional development workshops as the former Professional Chair. In my free time, I like practicing yoga, cooking, and drawing.
+                </p>
+            </div>
+        </main>
+
+        <footer class="container-fluid bg-light" id="contact">
+            <h3 class="display-4 text-center"> CONTACT ME </h3>
+            <h5 class="text-muted text-center pb-4"> Let's get in touch! Feel free to shoot me an email or connect with me online. </h5>
+
+            <div class="d-flex justify-content-center pb-5">
+                <a href="mailto:tina.la@stonybrook.edu" class="text-decoration-none mr-3"> 
+                    <img src="images/email_round.png" width="60" height="60">
                 </a>
 
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+                <a href="https://www.linkedin.com/in/tina-la/" class="text-decoration-none mr-3">
+                    <img src="images/linkedin_round.png" width="60" height="60">
+                </a>
 
-                <div class="collapse navbar-collapse" id="navbar-links">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#intro"> HOME </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#projects"> PROJECTS </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about"> ABOUT </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact"> CONTACT </a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+                <a href="https://github.com/tinaLa" class="text-decoration-none">
+                    <img src="images/github_round.png" width="60" height="60">
+                </a>
+            </div>
             
-            <main>
-                <div class="container" id="intro">
-                    <div class="row align-items-center">
-                        <div class="col-lg-4 px-sm-4 headshot">
-                            <img src="images/Me.jpg"  class="shadow" id="headshot-img">
-                        </div>
-                        <div class="col-lg-8 px-sm-4 about-me">
-                            <h3 class="display-3"> HI! I'M TINA LA. </h3> 
-                            <h5 class="text-muted"> 
-                                I'm a UX/UI designer with a background in software development and graphic design. I'm passionate about creating fun and thoughtful designs that bring users joy. <i class="em em-sparkles" aria-role="presentation" aria-label="SPARKLES"></i> 
-                                <br><br>
-                                Currently seeking full time UX/UI opportunities in NYC.
-                            </h5>
-                            <a class="btn btn-dark btn-lg shadow-sm mt-2" target="_blank" href="TinaLa_Resume_2020.pdf"> 
-                                <i class="em em-memo" aria-role="presentation" aria-label="MEMO"></i> &nbsp;
-                                RESUME
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="container-fluid bg-light" id="projects">
-                    <h1 class="display-4 text-center"> PROJECTS </h1>
-                    <h5 class="text-center text-muted mb-5"> These are some projects I've been working on. Contact me for my portfolio to see the full case studies. </h5>
-                    
-                    <div class="row row-cols-1 row-cols-md-3">
-                        <div class="col mb-4">
-                            <div class="card"> 
-                                <img src="images/website.png" class="card-img">
-                                <div class="card-img-overlay">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col mb-4">
-                            <div class="card"> 
-                                <img src="images/wireframer.png" class="card-img">
-                                <div class="card-img-overlay">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col mb-4">
-                            <div class="card"> 
-                                <img src="images/eventcal.png" class="card-img">
-                                <div class="card-img-overlay">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="container" id="about">
-                    <h1 class="display-4 text-center"> ABOUT ME </h1>
-                    <p class="text-muted">
-                        I'm currently a senior at Stony Brook University majoring in computer science and minoring in digital arts. I've been studying computer science throughout high school and college but have always had a passion for graphic design and problem solving, which led me to the field of user experience design. I've previously worked as an programming instructor at iDTech Camps' Alexa Cafe, instructing students in Java and Python, and was also a UGC Fellow at Stony Brook University, where I mentored and assisted teaching freshman students in their first year seminar classes. 
-                        
-                        <br><br>
-
-                        When I'm not in class or working, I like to stay involved with clubs on campus. I've been a cabinet member of the Vietnamese Student Association (VSA) for the three years, where I've been Editor, Event Coordinator Assistant, and Vice President. I'm also a member of Alpha Omega Epsilon, where I organized and hosted professional development workshops as the former Professional Chair. In my free time, I like practicing yoga, cooking, and drawing.
-                    </p>
-                </div>
-                
-                <div class="container-fluid bg-light" id="contact">
-                    <h3 class="display-4 text-center"> CONTACT ME </h3>
-                    <h5 class="text-muted text-center mb-4"> Let's get in touch! Feel free to shoot me an email or connect with me online. </h5>
-                    
-                    <div class="d-flex justify-content-center">
-                        <a href="mailto:tina.la@stonybrook.edu" class="text-decoration-none mr-3"> 
-                            <img src="images/email_round.png" width="60" height="60">
-                        </a>
-
-                        <a href="https://www.linkedin.com/in/tina-la/" class="text-decoration-none mr-3">
-                            <img src="images/linkedin_round.png" width="60" height="60">
-                        </a>
-
-                        <a href="https://github.com/tinaLa" class="text-decoration-none">
-                            <img src="images/github_round.png" width="60" height="60">
-                        </a>
-                    </div>
-                </div>
-                
-            </main>
-            
-            <footer class="bg-light pb-5">
-                <p class="text-center text-muted"> 
-                    Made with <i class="em em-sparkling_heart" aria-role="presentation" aria-label="SPARKLING HEART"></i> by Tina La
-                    <br>
-                    © 2020 Tina La 
-                </p>
-            </footer>
-        </div>
+            <p class="text-center text-muted m-0"> 
+                Made with <i class="em em-sparkling_heart" aria-role="presentation" aria-label="SPARKLING HEART"></i> by Tina La
+                <br>
+                © 2020 Tina La 
+            </p>
+        </footer>
         
         <!-- Bootstrap script files -->
         <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
